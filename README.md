@@ -14,7 +14,10 @@ MKDIR logs
 TXT file containing mails to sync, something like:
 
 mail@mail.com
+
 mail2@mail.com
+
 mail3@mail.com.br
+
 
 etc...
