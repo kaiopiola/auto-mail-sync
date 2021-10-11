@@ -1,29 +1,30 @@
 # auto-mail-sync
-Automatic easy-to-use IMAP mail syncing script.
+Script para facilitar sincronização de contas IMAP]
 
-#Imap Sync installation steps:
+## Instalação do Imap Sync:
 
-sudo apt-get update
+<code>sudo apt-get update</code>
 
-apt-get install libdigest-hmac-perl libdigest-hmac-perl libterm-readkey-perl libterm-readkey-perl libdate-manip-perl libdate-manip-perl libmail-imapclient-perl
+<code>apt-get install libdigest-hmac-perl libdigest-hmac-perl libterm-readkey-perl libterm-readkey-perl libdate-manip-perl libdate-manip-perl libmail-imapclient-perl</code>
 
-wget http://old-releases.ubuntu.com/ubuntu/pool/universe/i/imapsync/imapsync_1.315+dfsg-1_all.deb
+<code>wget http://old-releases.ubuntu.com/ubuntu/pool/universe/i/imapsync/imapsync_1.315+dfsg-1_all.deb</code>
 
-dpkg -i imapsync_1.315+dfsg-1_all.deb
-
-
-
-#Dependencies:
-
-MKDIR logs
-
-TXT file containing mails to sync, something like:
-
-mail@mail.com
-
-mail2@mail.com
-
-mail3@mail.com.br
+<code>dpkg -i imapsync_1.315+dfsg-1_all.deb</code>
 
 
-etc...
+
+## Dependências:
+
+<code>MKDIR logs</code>
+
+#### TXT nomeado list.txt contendo emails para sincronizar, como por exemplo:
+
+mail@mail.com<br>
+mail2@mail.com<br>
+mail3@mail.com.br<br>
+
+#### ImapSync original:
+
+É o mesmo da instalação no começo deste README
+
+https://github.com/imapsync/imapsync
