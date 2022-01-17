@@ -1,7 +1,7 @@
 # auto-mail-sync
 Script para facilitar sincronização de contas IMAP.
 
-***Este script, bem como sua documentação se encontram defasados e desatualizados. Prometo revisar toda essa solução um dia, mas se quiser, pode ficar a vontade para retrabalhar ela e fazer um pull pra gente! Irei fazer um code review e validar com toda atenção o seu código :)***
+***⚠️Este script, bem como sua documentação se encontram defasados e desatualizados. Prometo revisar toda essa solução um dia, mas se quiser, pode ficar a vontade para retrabalhar ela e fazer um pull pra gente! Irei fazer um code review e validar com toda atenção o seu código :)***
 
 ## Instalação do Imap Sync:
 
